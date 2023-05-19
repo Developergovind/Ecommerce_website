@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="header">
+        <a href=""><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Louis_Vuitton_logo_and_wordmark.svg/800px-Louis_Vuitton_logo_and_wordmark.svg.png" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="shop.html">Shop</a></li>
+                <li><a  href="blog.html">Blog</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a  href="contact.html">Contact</a/li>
+                <li id="lg-bag"><a class="active" href="cart.html"><span class="material-symbols-outlined">
+                    shopping_bag
+                    </span></a/li>
+                  <a href="" id="close"><span class="material-symbols-outlined">
+                    close
+                    </span></a>  
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><span class="material-symbols-outlined">
+                shopping_bag
+                </span></a>
+                <i id="bar"><span class="material-symbols-outlined">menu</span></i>
+             
+        </div>
+    </section>
+    <section class="cart-header">
+        <h1>#Cart</h1>
+        <p>Add Your coupon code save upto 70%</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+                <thead>
+                    <tr>
+                        <th>Remove</th>
+                        <th>Image</th>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#"><i class="fa-solid fa-xmark"></i></a></td>
+                        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoJAy1CKcbxpEfrwUeafZtkE0YvAME7mWBfg&usqp=CAU" alt=""></td>
+                        <td>Cartoons Astronaut T-shirts</td>
+                        <td>$120</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$120</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="fa-solid fa-xmark"></i></a></td>
+                        <td><img src="https://images-na.ssl-images-amazon.com/images/I/71EuxHmb+AL._SLDPMOBCAROUSELAUTOCROP288221_MCnd_AC_SR462,693_.jpg" alt=""></td>
+                        <td>Cartoons Astronaut T-shirts</td>
+                        <td>$120</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$120</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="fa-solid fa-xmark"></i></a></td>
+                        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOB-txM6j4fbHvZ4IA26Jox6lh1tcIvfNmyteU5O6PKjSDRL_0fGPZ8NgIEvMDNQnzfmk&usqp=CAU" alt=""></td>
+                        <td>Cartoons Astronaut T-shirts</td>
+                        <td>$120</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$120</td>
+                    </tr>
+                </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon code">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+          <table>
+            <tr>
+                <td>Cart Subtotal</td>
+                <td>$335</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>$334</strong></td>
+            </tr>
+          </table>
+          <button>Procced to Checkout</button>
+        </div>
+    </section>
+<footer class="section-p1">
+    <div class="footer">
+    <div class="col">
+        <h4>Contact</h4>
+        <p><strong> Adrress:</strong> 562 wellington Road street 32, San Francisco</p>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+    </div>
+    <div class="col">
+        <h4>About</h4>
+        <a href="">About Us</a>
+        <a href="">Delivery Information</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Terms & Conditions</a>
+        <a href="">Contact Us</a>
+    </div>
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="">Sign In </a>
+        <a href="">Viw Cart</a>
+        <a href="">My Wishlist</a>
+        <a href="">Track My Order</a>
+        <a href="">Help</a>
+    </div>
+    <div class="col install">
+    <h4>Install App</h4>
+    <p>From App Store or Google Play</p>
+    <div class="row">
+        <!-- <img src="https://www.svgrepo.com/show/303118/google-play-download-android-app-logo.svg" alt=""> -->
+    </div>
+    <p>Secured Payment Gateways</p>
+    <img src="" alt="">
+    </div>
+</div>
+<div class="copyright">
+    <p >© 2023 Tech etc TTML CSS JAVASCRIPT</p>
+</div>
+</footer>
+   <script src="./index.js"></script> 
+</body>
+</html>
